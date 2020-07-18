@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap" rel="stylesheet">
+    <!---->
+
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="app.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<body>
+
+    <div id="bgOptions"></div>
+
+    <main>
+
+        <div id="optionsMenu" class="addOptions">
+
+            <h1>Add New Book</h1>
+
+            <div>
+                <h3>Name of the book</h3>
+                <input type="text" name="" id="tileInput" placeholder="Name of the book...">
+            </div>
+            <div>
+                <h3>Author of the book</h3>
+                <input type="text" name="" id="authorInput" placeholder="Author of the book...">
+            </div>
+            <div>
+                <h3>Date of the book</h3>
+                <input type="text" name="" id="dateInput" placeholder="Date of the book...">
+            </div>
+            <div>
+                <h3>Number of pages</h3>
+                <input type="number" name="" id="pagesInput" placeholder="Pages of the book...">
+            </div>
+
+            <div class="buttonInput">
+                <button>CANCEL</button>
+                <button>SUBMIT</button>
+            </div>
+
+        </div>
+
+        <header>
+
+            <h1 class="title">Library</h1>
+            <button id="addNew" class="addNew">Add new Book</button>
+
+        </header>
+
+        <div class="books" id="bookshelf">
+
+            <div class="book" id="originalBook">
+                <h2 class="titleBook">Title: Example Title</h2>
+                <h4 class="dateBook">Published: 07/07/2002</h4>         
+                <button class="deleteBook">DELETE BOOK</button>
+                <h3 class="authorBook">Author: Alexander González Covic</h3>
+                <h4 class="ratingBook">Pages: 235</h4>
+            </div>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
